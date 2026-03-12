@@ -1,0 +1,32 @@
+# Backend Requirements for CCTV Detection System
+# ================================================
+
+# Roboflow Inference SDK
+inference>=0.18.0
+
+# Supervision — tracking (ByteTrack), counting (LineZone), annotations
+supervision>=0.22.0
+
+# OpenCV — RTSP capture
+opencv-python>=4.8.0
+
+# NumPy
+numpy>=1.24.0
+
+# Flask — web server + MJPEG streaming
+Flask>=3.0.0
+
+# Flask-CORS — cross-origin for React frontend
+flask-cors>=5.0.0
+
+# SQLAlchemy — ORM
+SQLAlchemy>=2.0.0
+
+# PostgreSQL adapter
+psycopg2-binary>=2.9.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Face recognition (dlib-based)
+face_recognition>=1.3.0
